@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue; 
+}
+.head h1{
+    color: deepskyblue;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 20px solid white;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    section{
+        width: 60%;
+    }
+}
+footer{
+    background-color: rgb(37, 156, 37);
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer a img{
+    width: 30px;
+    margin: 20px;
+}
