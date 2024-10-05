@@ -10,7 +10,7 @@ body{
     align-items: center;
 }
 .photo img{
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
     border-radius: 50%;
     border: 20px solid white;
@@ -36,5 +36,5 @@ footer{
 }
 footer a img{
     width: 30px;
-    margin: 20px;
+    margin: 15px;
 }
